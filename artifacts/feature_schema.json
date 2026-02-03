@@ -1,0 +1,33 @@
+{
+  "dataset": "telco-customer-churn",
+  "kaggle_source": "blastchar/telco-customer-churn",
+  "features": [
+    "gender",
+    "senior_citizen",
+    "partner",
+    "dependents",
+    "tenure",
+    "phone_service",
+    "multiple_lines",
+    "internet_service",
+    "online_security",
+    "online_backup",
+    "device_protection",
+    "tech_support",
+    "streaming_tv",
+    "streaming_movies",
+    "contract",
+    "paperless_billing",
+    "payment_method",
+    "monthly_charges",
+    "total_charges"
+  ],
+  "engineered_features": [
+    "service_count",
+    "avg_monthly_spend",
+    "is_month_to_month",
+    "is_electronic_check",
+    "has_fiber"
+  ],
+  "target": "churn"
+}

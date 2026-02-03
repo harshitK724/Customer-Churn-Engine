@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "churn-engine": {
+      "command": "python",
+      "args": ["-m", "src.mcp_server.server"],
+      "cwd": "C:\\Users\\Hp\\Desktop\\Python projects\\Customer Churn Engine",
+      "env": {
+        "PYTHONPATH": ".",
+        "API_BASE_URL": "http://localhost:8000"
+      }
+    }
+  }
+}

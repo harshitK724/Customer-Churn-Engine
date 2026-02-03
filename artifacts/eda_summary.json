@@ -1,0 +1,77 @@
+{
+  "dataset": "telco-customer-churn",
+  "kaggle_source": "blastchar/telco-customer-churn",
+  "row_count": 7043,
+  "churn_rate": 0.2653698707936959,
+  "churn_counts": {
+    "No": 5174,
+    "Yes": 1869
+  },
+  "missing_values": {
+    "customer_id": 0,
+    "gender": 0,
+    "senior_citizen": 0,
+    "partner": 0,
+    "dependents": 0,
+    "tenure": 0,
+    "phone_service": 0,
+    "multiple_lines": 0,
+    "internet_service": 0,
+    "online_security": 0,
+    "online_backup": 0,
+    "device_protection": 0,
+    "tech_support": 0,
+    "streaming_tv": 0,
+    "streaming_movies": 0,
+    "contract": 0,
+    "paperless_billing": 0,
+    "payment_method": 0,
+    "monthly_charges": 0,
+    "total_charges": 0,
+    "churn": 0
+  },
+  "numeric_summary": {
+    "tenure": {
+      "count": 7043.0,
+      "mean": 32.37114865824223,
+      "std": 24.55948102309446,
+      "min": 0.0,
+      "25%": 9.0,
+      "50%": 29.0,
+      "75%": 55.0,
+      "max": 72.0
+    },
+    "monthly_charges": {
+      "count": 7043.0,
+      "mean": 64.76169246059918,
+      "std": 30.090047097678493,
+      "min": 18.25,
+      "25%": 35.5,
+      "50%": 70.35,
+      "75%": 89.85,
+      "max": 118.75
+    },
+    "total_charges": {
+      "count": 7043.0,
+      "mean": 2279.798991906858,
+      "std": 2266.730169965529,
+      "min": 18.8,
+      "25%": 398.55,
+      "50%": 1394.55,
+      "75%": 3786.6,
+      "max": 8684.8
+    }
+  },
+  "contract_vs_churn": {
+    "No": {
+      "Month-to-month": 0.5729032258064516,
+      "One year": 0.8873048200950441,
+      "Two year": 0.9716814159292035
+    },
+    "Yes": {
+      "Month-to-month": 0.4270967741935484,
+      "One year": 0.11269517990495587,
+      "Two year": 0.02831858407079646
+    }
+  }
+}

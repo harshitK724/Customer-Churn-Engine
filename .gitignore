@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*.csv
+artifacts/*.joblib
+.env
+*.egg-info/
+.mypy_cache/
+.DS_Store
+
+# Accidental pip log files in project root
+/[0-9]*.[0-9]*
+/[0-9]*.[0-9]*.[0-9]*
